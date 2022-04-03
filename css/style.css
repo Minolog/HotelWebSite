@@ -81,6 +81,7 @@ p {
 
 .l-heading {
     font-size: 40px;
+    line-height: 1.2;
 }
 
 /*  */
@@ -207,7 +208,7 @@ p {
 
 /*  */
 #testimonials {
-    height: 600px;
+    height: 100%;
     background: url('../img/test-bg.jpg') center center/cover;
     padding-top: 100px;
 }
@@ -267,3 +268,7 @@ p {
     padding: 20px;
 }
 
+/*  */
+#contact-info .box {
+    border-bottom: #444 dotted 1px;
+}
